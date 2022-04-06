@@ -22,7 +22,7 @@ pod 'LockheedBLE'
 
 ## Author
 
-WayneChou1, wayne@lockheedtech.com
+lockheed, wayne@lockheedtech.com
 
 ## License
 
