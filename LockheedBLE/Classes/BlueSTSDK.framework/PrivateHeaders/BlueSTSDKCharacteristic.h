@@ -31,7 +31,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 
-#import "BlueSTSDKFeature.h"
+#import "../BlueSTSDKFeature.h"
 
 /**
  *  A single ble characteristic can contains more than one feature, 

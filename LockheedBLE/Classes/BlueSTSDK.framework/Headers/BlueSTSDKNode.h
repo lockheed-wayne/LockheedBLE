@@ -138,7 +138,7 @@ typedef NS_ENUM(NSInteger, BlueSTSDKNodeType){
 /**
  *  node name, is not guaranteed that this string is unique
  */
-@property (retain, readonly,nonnull) NSString *name;
+@property (retain,nonnull) NSString *name;
 
 /**
  *  node address, if available in the advertise otherwise nil
