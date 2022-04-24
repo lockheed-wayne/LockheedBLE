@@ -1,0 +1,11 @@
+framework module lockheed_ble {
+  umbrella header "lockheed_ble.h"
+
+  export *
+  module * { export * }
+}
+
+module lockheed_ble.Swift {
+    header "lockheed_ble-Swift.h"
+    requires objc
+}
