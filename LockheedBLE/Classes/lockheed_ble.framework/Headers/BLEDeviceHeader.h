@@ -8,12 +8,12 @@
 #ifndef BLEDeviceHeader_h
 #define BLEDeviceHeader_h
 
-#import "BLEDeviceManager.h"
-#import "BLECommandManager.h"
-#import "LMError.h"
-#import "BLETools.h"
-#import "BLEDevice.h"
-#import "BLEFence.h"
+//#import "BLEDeviceManager.h"
+//#import "BLECommandManager.h"
+//#import "LMError.h"
+//#import "BLETools.h"
+//#import "BLEDevice.h"
+//#import "BLEFence.h"
 
 //解析命令后的数据，通过字典返回，使用以下key
 static const NSString *kDevice_Error = @"kDevice_Error";
