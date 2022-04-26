@@ -9,7 +9,7 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 #import <CoreLocation/CoreLocation.h>
 #import "BLEDeviceBlock.h"
-#import "BLEDeviceHeader.h"
+#import "BLECommandManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

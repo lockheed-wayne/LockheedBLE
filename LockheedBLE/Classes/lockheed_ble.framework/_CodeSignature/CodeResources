@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		qmm/pcaXEnB1J4nVPosgWRMz8Ys=
+		</data>
+		<key>Frameworks/.DS_Store</key>
+		<data>
+		UcYA3FMAGVVzfrnJm2mVlmug/cg=
+		</data>
 		<key>Frameworks/BlueSTSDK.framework/BlueSTSDK</key>
 		<data>
-		y7X6KHt8ip+aKVCSvuaMDl2UTmc=
+		p947vxLY3dOYI+tacavugyRhtdI=
 		</data>
 		<key>Frameworks/BlueSTSDK.framework/Info.plist</key>
 		<data>
@@ -26,7 +34,7 @@
 		</data>
 		<key>Headers/BLEDevice.h</key>
 		<data>
-		AofsWBeMsmXoLBz85hvSDq1SupQ=
+		VIWniofUfJ1SNcdbG7ZrwwZd8P0=
 		</data>
 		<key>Headers/BLEDeviceBlock.h</key>
 		<data>
@@ -34,7 +42,7 @@
 		</data>
 		<key>Headers/BLEDeviceHeader.h</key>
 		<data>
-		9GBNP8+1q+5bvU0ZBx3MpE8kE5g=
+		DHChB9Kad/HHi0IfiSoPJTD7NGA=
 		</data>
 		<key>Headers/BLEDeviceManager.h</key>
 		<data>
@@ -62,7 +70,7 @@
 		</data>
 		<key>Headers/lockheed_ble.h</key>
 		<data>
-		7LgmS+l9b0qPbH4NrOu5+k02WGw=
+		5rryGDxZ9SZCRfWyF7kXG/mcOzs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -70,7 +78,7 @@
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		iVS1YqQH/xnW73G5YhDXIAIR58c=
+		j0kfneM3G7y/nA1Be5mNr8dCkFw=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -91,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y7X6KHt8ip+aKVCSvuaMDl2UTmc=
+			p947vxLY3dOYI+tacavugyRhtdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UEIVKPBMv28Fk6y3f5MNuYT0zlxYfKYhr0MsWYrBI70=
+			d/20K9VCPSwIYxbZ11mCFOmbhukUA/RcnQXk0arovuw=
 			</data>
 		</dict>
 		<key>Frameworks/BlueSTSDK.framework/Info.plist</key>
@@ -146,11 +154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AofsWBeMsmXoLBz85hvSDq1SupQ=
+			VIWniofUfJ1SNcdbG7ZrwwZd8P0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZS1uWIOwGkEhDfpfhaE2EvoQQZ9dSuDlqYLJOcwyNoU=
+			xNDY9xDdDf56OtcrVUqzAkOpKwDkAfiVl/lGfXdbfBU=
 			</data>
 		</dict>
 		<key>Headers/BLEDeviceBlock.h</key>
@@ -168,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9GBNP8+1q+5bvU0ZBx3MpE8kE5g=
+			DHChB9Kad/HHi0IfiSoPJTD7NGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			TIXszp2zP7qxOkC7o+joyicXulX75LJTW1IIE2CGvGY=
+			8OFdvluK7kylhIdvyozcdDNlCnhRrMHentJl/VL/QN0=
 			</data>
 		</dict>
 		<key>Headers/BLEDeviceManager.h</key>
@@ -245,22 +253,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7LgmS+l9b0qPbH4NrOu5+k02WGw=
+			5rryGDxZ9SZCRfWyF7kXG/mcOzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DErOUwyKZ9Pd9wP1NG9vWBfjO+8vyMbh5iBpXVRc+h8=
+			h7jFNtTlgNoYtI49EYnR34BUJQIejTqNYb9mC0J7RZI=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iVS1YqQH/xnW73G5YhDXIAIR58c=
+			j0kfneM3G7y/nA1Be5mNr8dCkFw=
 			</data>
 			<key>hash2</key>
 			<data>
-			zFakTu6hSxtPwWFLZ3TkFdNmQ9v4hpOQKlfbrX5zI3Y=
+			CoKjlxa3jr+2TIq/KP/T8hav4QVbsF/V7W7/92BCuRU=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
