@@ -41,7 +41,7 @@ typedef enum : UInt8 {
     BLECommandType_Wakeup = 0x1e,
     BLECommandType_Charging = 0x1f,
     BLECommandType_NotExist = 0xff
-} BLECommandType;
+} LBCommandType;
 
 typedef enum : UInt8 {
     BLECommandType_Setting_Type_SavingModeSection = 0x01,   //省电模式打开时间段
@@ -63,9 +63,9 @@ typedef enum : UInt8 {
     BLECommandType_Setting_Type_BLEFortifySwitch = 0x11,     //蓝牙设防开关
     BLECommandType_Setting_Type_TransportModeSwitch = 0x12,     //运输模式开关
     BLECommandType_Setting_Type_NotExist = 0xff
-} BLECommandType_Setting_Type;
+} LBCommandType_Setting_Type;
 
-struct BLECommandStruct {
+struct LBCommandStruct {
     UInt16 header;          //帧头，固定为5555
     UInt8 length;           //整个数据帧长度
     UInt8 type;              //帧类型
@@ -92,7 +92,7 @@ struct BLECommandStruct {
 
 
 
-@interface BLECommandManager : NSObject
+@interface LBCommandManager : NSObject
 
 //KVO用于打印
 @property (strong, nonatomic) NSData *cmdData;
@@ -102,19 +102,19 @@ struct BLECommandStruct {
 +(instancetype) shareInstance;
 
 //普通命令的正确响应
--(NSData *) normalSuccessCommand:(BLECommandType) type msgID:(NSData *)msgID;
--(NSData *) normalFailedCommand:(BLECommandType) type msgID:(NSData *)msgID;
+-(NSData *) normalSuccessCommand:(LBCommandType) type msgID:(NSData *)msgID;
+-(NSData *) normalFailedCommand:(LBCommandType) type msgID:(NSData *)msgID;
 
--(NSData *) buildNewCommandFor:(BLECommandType) type data:(nullable NSData *) data;
--(NSData *) buildResponseCommandFor:(BLECommandType) type data:(nullable NSData *) data msgID:(nullable NSData *) msgID;
+-(NSData *) buildNewCommandFor:(LBCommandType) type data:(nullable NSData *) data;
+-(NSData *) buildResponseCommandFor:(LBCommandType) type data:(nullable NSData *) data msgID:(nullable NSData *) msgID;
 //鉴权
--(NSData *) buildAuthorizationFor:(BLECommandType) type data:(nullable NSData *) data;
+-(NSData *) buildAuthorizationFor:(LBCommandType) type data:(nullable NSData *) data;
 
-+(NSString *) stringCommandTypeBy:(BLECommandType) type;
-+(NSString *) stringSettingCommandTypeBy:(BLECommandType_Setting_Type) type;
-+(BLECommandType) phraseCommandType:(NSData *) data;
++(NSString *) stringCommandTypeBy:(LBCommandType) type;
++(NSString *) stringSettingCommandTypeBy:(LBCommandType_Setting_Type) type;
++(LBCommandType) phraseCommandType:(NSData *) data;
 
-+(NSString *) locationStringByCommandType:(BLECommandType) type;
++(NSString *) locationStringByCommandType:(LBCommandType) type;
 
 
 @end

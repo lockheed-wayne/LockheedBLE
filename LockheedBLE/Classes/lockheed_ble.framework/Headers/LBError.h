@@ -8,13 +8,6 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-//typedef enum : NSUInteger {
-//    kBLEDeviceMsgError_Success = 0,
-//    kBLEDeviceMsgError_LenError,        //接收到的返回数据长度错误
-//    kBLEDeviceMsgError_PhraseError,     //解析错误
-//    kBLEDeviceMsgError_normalFailed     //普通错误
-//} BLEDeviceMsgError;
-
 
 //以4开头的代码为代码性错误
 #define LMCodeErrorPrefix       4
@@ -50,14 +43,14 @@ typedef enum : NSUInteger {
     LMErrorCodeType_InvalidToken,   //token过期，需要重新登录
     LMErrorCodeType_SystemError,    //系统错误，报错
     LMErrorCodeType_BLEError,       //蓝牙类错误
-}LMErrorCodeType;
+}LBErrorCodeType;
 
 static NSString *ErrorDomain_ReceivedDataError = @"ErrorDomain_ReceivedDataError";
 
-@interface LMError : NSObject
+@interface LBError : NSObject
 
 
-@property (assign, nonatomic, getter=getErrorType) LMErrorCodeType errorType;
+@property (assign, nonatomic, getter=getErrorType) LBErrorCodeType errorType;
 @property (assign, nonatomic) LMErrorCode code;
 @property (strong, nonatomic, getter=getErrorMessage, nullable) NSString *errorMessage;
 
