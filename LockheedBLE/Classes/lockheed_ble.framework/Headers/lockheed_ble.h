@@ -15,9 +15,9 @@ FOUNDATION_EXPORT const unsigned char lockheed_bleVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <lockheed_ble/PublicHeader.h>
 //#import <BlueSTSDK/BlueSTSDK.h>
-#import "BLECommandManager.h"
-#import "BLEDevice.h"
-#import "BLEDeviceBlock.h"
-#import "BLEDeviceHeader.h"
-#import "BLEDeviceOTAManager.h"
-#import "BLEDeviceManager.h"
+#import "LBCommandManager.h"
+#import "LBDevice.h"
+#import "LBDeviceBlock.h"
+#import "LBDeviceHeader.h"
+#import "LBDeviceOTAManager.h"
+#import "LBDeviceManager.h"

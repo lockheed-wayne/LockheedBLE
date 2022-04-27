@@ -8,8 +8,8 @@
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 #import <CoreLocation/CoreLocation.h>
-#import "BLEDeviceBlock.h"
-#import "BLECommandManager.h"
+#import "LBDeviceBlock.h"
+#import "LBCommandManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -68,14 +68,16 @@ typedef enum : UInt8 {
 
 @protocol BLEDeviceDelegate <NSObject>
 
--(void) didReceivedEvent:(BLECommandType) cmdType values:(nullable NSDictionary *) values;
+-(void) didReceivedEvent:(LBCommandType) cmdType values:(nullable NSDictionary *) values;
 
 -(void) didUpdateCoordinate:(CLLocationCoordinate2D) coordinate;
 
 @end
 
-@class CBPeripheral,BLEFence;
-@interface BLEDevice : NSObject<CBPeripheralDelegate>
+@class CBPeripheral,LBFence;
+
+
+@interface LBDevice : NSObject<CBPeripheralDelegate>
 @property (assign, nonatomic) id<BLEDeviceDelegate> delegate;
 
 @property (strong, nonatomic, setter=setPeripheral:) CBPeripheral *peripheral;
@@ -139,7 +141,7 @@ typedef enum : UInt8 {
 -(void) BLEFunctionSettingGPSSwitchStatus:(BLEDevice_SwitchStatus) status  result:(BLESettingGPSSwitch) block;
 -(void) BLEFunctionSettingSavingModeSwitchStatus:(BLEDevice_SwitchStatus)status  result:(BLESettingSavingModeSwitch) block;
 -(void) BLEFunctionSettingBeepModePower:(UInt8) power duration:(UInt8) duration result:(BLESettingBeepMode) block;
--(void) BLEFunctionSettingFenceInfo:(BLEFence *) fence result:(BLESettingFenceInfo) block;
+-(void) BLEFunctionSettingFenceInfo:(LBFence *) fence result:(BLESettingFenceInfo) block;
 -(void) BLEFunctionSettingTheftSwitchStatus:(BLEDevice_SwitchStatus)status  result:(BLESettingTheftSwitch) block;
 -(void) BLEFunctionSettingFenceSwitchStatus:(BLEDevice_SwitchStatus)status  result:(BLESettingFenceSwitch) block;
 -(void) BLEFunctionSettingWakeupDurationHour:(UInt16)hour result:(BLESettingWakeupDuration) block;

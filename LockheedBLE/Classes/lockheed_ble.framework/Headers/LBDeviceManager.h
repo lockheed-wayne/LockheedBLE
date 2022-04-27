@@ -7,13 +7,13 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
-#import "BLEDeviceBlock.h"
+#import "LBDeviceBlock.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class BLEDevice;
+@class LBDevice;
 
-@protocol BLEDeviceManagerDelegate <NSObject>
+@protocol LBDeviceManagerDelegate <NSObject>
 
 //发现设备时回调
 //-(void) discoverBLEDevices:(NSArray <BLEDevice *> *) devices;
@@ -25,18 +25,18 @@ NS_ASSUME_NONNULL_BEGIN
 //-(void) didFailedConnectBLEDevice:(BLEDevice *) device error:(NSError *) error;
 
 //已成功断开连接
--(void) didDisconnectBLEDevice:(BLEDevice *) device;
+-(void) didDisconnectBLEDevice:(LBDevice *) device;
 
 @end
 
-@class BLEDevice;
-@interface BLEDeviceManager : NSObject<CBCentralManagerDelegate>
+@class LBDevice;
+@interface LBDeviceManager : NSObject<CBCentralManagerDelegate>
 
 //已连接的BLE设备数组
-@property (strong, nonatomic, readonly) NSMutableArray <BLEDevice *>* connectedBLEDevices;
-@property (strong, nonatomic, readonly) NSMutableArray <BLEDevice *>* discoverdBLEDevices;
+@property (strong, nonatomic, readonly) NSMutableArray <LBDevice *>* connectedBLEDevices;
+@property (strong, nonatomic, readonly) NSMutableArray <LBDevice *>* discoverdBLEDevices;
 @property (strong, nonatomic, readonly) dispatch_queue_t queue;
-@property (assign, nonatomic, nullable) id<BLEDeviceManagerDelegate> delegate;
+@property (assign, nonatomic, nullable) id<LBDeviceManagerDelegate> delegate;
 @property (assign, nonatomic) BOOL isRetry;
 //获取单例
 +(instancetype) shareInstance;
@@ -54,15 +54,15 @@ NS_ASSUME_NONNULL_BEGIN
 -(void) stopScanBLEDevice;
 
 //连接设备
--(void) connectBLEDevice:(BLEDevice *) device
+-(void) connectBLEDevice:(LBDevice *) device
                  success:(BLEManagerConnectedDevice) connectedBlock
       failedConnectBlock:(BLEManagerFailedConnectedDevice) failedConnectBlock;
 
 //断开设备
--(void) disconnectBLEDevice:(BLEDevice *) device;
+-(void) disconnectBLEDevice:(LBDevice *) device;
 
 //设置当前设备
--(void) setupCurrentBLEDevice:(BLEDevice *) device;
+-(void) setupCurrentBLEDevice:(LBDevice *) device;
 
 @end
 

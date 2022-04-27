@@ -4,21 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		qmm/pcaXEnB1J4nVPosgWRMz8Ys=
-		</data>
-		<key>Frameworks/.DS_Store</key>
-		<data>
-		UcYA3FMAGVVzfrnJm2mVlmug/cg=
-		</data>
 		<key>Frameworks/BlueSTSDK.framework/BlueSTSDK</key>
 		<data>
-		p947vxLY3dOYI+tacavugyRhtdI=
+		8xcAEA89jPsXQ64GDamzRvfQcnA=
 		</data>
 		<key>Frameworks/BlueSTSDK.framework/Info.plist</key>
 		<data>
-		4GpV4td0wfG7JcssrfLshclEWOQ=
+		pgDaYwFU3nS5izveICAEfLSvEdk=
 		</data>
 		<key>Frameworks/BlueSTSDK.framework/Localizable.strings</key>
 		<data>
@@ -26,67 +18,79 @@
 		</data>
 		<key>Frameworks/BlueSTSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		PrfwgWXCz7ddLaCvj/OaRKjNC+Y=
+		8j3oY9hiCRZl+5qLX5/tqo7tGaU=
 		</data>
-		<key>Headers/BLECommandManager.h</key>
+		<key>Headers/LBCommandManager.h</key>
 		<data>
-		Lfw8dbSN7c3dvehocq6rWmjp61U=
+		hcyyKkPIVNuoNsmnQjb/rPF13nU=
 		</data>
-		<key>Headers/BLEDevice.h</key>
+		<key>Headers/LBDevice.h</key>
 		<data>
-		VIWniofUfJ1SNcdbG7ZrwwZd8P0=
+		8GMzXVJia8DiOuwfWnp3WPVlX9Q=
 		</data>
-		<key>Headers/BLEDeviceBlock.h</key>
+		<key>Headers/LBDeviceBlock.h</key>
 		<data>
-		KiK3aGbJ4kdd8RxUb6DeCzSjokQ=
+		8iJ5fmLL2zmvlWLlKXM0xreC7Ok=
 		</data>
-		<key>Headers/BLEDeviceHeader.h</key>
+		<key>Headers/LBDeviceHeader.h</key>
 		<data>
 		DHChB9Kad/HHi0IfiSoPJTD7NGA=
 		</data>
-		<key>Headers/BLEDeviceManager.h</key>
+		<key>Headers/LBDeviceManager.h</key>
 		<data>
-		US65wPJXQiD6moox+OiWyREvthg=
+		V+JRUraj27KsnSXL9oEpIX1aIWA=
 		</data>
-		<key>Headers/BLEDeviceOTAManager.h</key>
+		<key>Headers/LBDeviceOTAManager.h</key>
 		<data>
-		btjWpmN0l0tfX/VUaJK9quf2API=
+		07UBNCjz4lRM0QBqvi7pbOPUKlA=
 		</data>
-		<key>Headers/BLEFence.h</key>
+		<key>Headers/LBError.h</key>
 		<data>
-		NrzUS/gyFi5lmtIQkqJzfVsHa4Y=
+		YETNW0G4Oj5txe3g3wOqdeTCJz8=
 		</data>
-		<key>Headers/BLETools.h</key>
+		<key>Headers/LBFence.h</key>
 		<data>
-		0vwq7CrY/IIGYPc8+DG/Pbz1x60=
+		3t+NStyWWFtT0eDg/xO4WrhCSOA=
 		</data>
-		<key>Headers/LMError.h</key>
+		<key>Headers/LBTools.h</key>
 		<data>
-		N0ovcyg4a6LDFbR7B/6nqhy2ARY=
+		SiwswnR1WWVByrnyNOx2hkaM94M=
 		</data>
 		<key>Headers/lockheed_ble-Swift.h</key>
 		<data>
-		st8vyiHB0o0YUOMR0LyFCQYwBK8=
+		UFjADrO2Q2QDysgeFfrNJ4rsHXo=
 		</data>
 		<key>Headers/lockheed_ble.h</key>
 		<data>
-		5rryGDxZ9SZCRfWyF7kXG/mcOzs=
+		AB74WizQIE2EMBfBZM85OADRO3U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		q352yvvrHNSbz2kkgp+7jakrwXk=
+		RI77R58yZpS1Tt0u5K2HBjkeM10=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		j0kfneM3G7y/nA1Be5mNr8dCkFw=
+		OwK9ECGk+eqD5vrRzWVVXe2Nvyk=
+		</data>
+		<key>Modules/lockheed_ble.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		OwK9ECGk+eqD5vrRzWVVXe2Nvyk=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		tXd9N5tTcgv0mcv0vAHw43tJD0Q=
+		/upR8y7muJM6y22aIdH9HYqUmmo=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vUAIVE8+rxclonm/uMKbLdJtLlM=
+		VBe6aCeiIAWX0a/jrYbOooMjz0o=
+		</data>
+		<key>Modules/lockheed_ble.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		/upR8y7muJM6y22aIdH9HYqUmmo=
+		</data>
+		<key>Modules/lockheed_ble.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		VBe6aCeiIAWX0a/jrYbOooMjz0o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,22 +103,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p947vxLY3dOYI+tacavugyRhtdI=
+			8xcAEA89jPsXQ64GDamzRvfQcnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			d/20K9VCPSwIYxbZ11mCFOmbhukUA/RcnQXk0arovuw=
+			Yu2yBEAcp1MW4x9KtGOocQkcRDpdwRuhsWSqdkp2v6E=
 			</data>
 		</dict>
 		<key>Frameworks/BlueSTSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4GpV4td0wfG7JcssrfLshclEWOQ=
+			pgDaYwFU3nS5izveICAEfLSvEdk=
 			</data>
 			<key>hash2</key>
 			<data>
-			F0ZKx9diau3ruRNULe3CgnguQvtA1Ke4Zj5/NX5GVVs=
+			s8ZGmHWOc8/aNVffZXl3JvC1NoNG2YVzyqbchQJtMAc=
 			</data>
 		</dict>
 		<key>Frameworks/BlueSTSDK.framework/Localizable.strings</key>
@@ -132,47 +136,47 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PrfwgWXCz7ddLaCvj/OaRKjNC+Y=
+			8j3oY9hiCRZl+5qLX5/tqo7tGaU=
 			</data>
 			<key>hash2</key>
 			<data>
-			r2byfQNRw6kVNK+aTvL5VMzCz4xk2G2c6Lw16PxiKUo=
+			Juc/RFydJ+zYLx8acM8wv90/7esqecNLrmbSLdpUzn0=
 			</data>
 		</dict>
-		<key>Headers/BLECommandManager.h</key>
+		<key>Headers/LBCommandManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Lfw8dbSN7c3dvehocq6rWmjp61U=
+			hcyyKkPIVNuoNsmnQjb/rPF13nU=
 			</data>
 			<key>hash2</key>
 			<data>
-			oNGSkVIg2qP5Gyf/4jwOQ2+1b75HC80ile1hNBfKDck=
+			5caCiL/dABE9nwvle2JqLVDtfbg51UYciP47P1ZM5/8=
 			</data>
 		</dict>
-		<key>Headers/BLEDevice.h</key>
+		<key>Headers/LBDevice.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VIWniofUfJ1SNcdbG7ZrwwZd8P0=
+			8GMzXVJia8DiOuwfWnp3WPVlX9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			xNDY9xDdDf56OtcrVUqzAkOpKwDkAfiVl/lGfXdbfBU=
+			T9YmS9UVxHbXvrqilgc+Bfn2NZHZaz8dJE/mcvjd1w4=
 			</data>
 		</dict>
-		<key>Headers/BLEDeviceBlock.h</key>
+		<key>Headers/LBDeviceBlock.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KiK3aGbJ4kdd8RxUb6DeCzSjokQ=
+			8iJ5fmLL2zmvlWLlKXM0xreC7Ok=
 			</data>
 			<key>hash2</key>
 			<data>
-			TZL2uEP6a7EHqlEJ2f6lbw3Mq4RwhuKhlF882PrjJIc=
+			+sqWZN1DLW8k7eraf486PnI4ijtNbzCXXQ2zZsR16Nk=
 			</data>
 		</dict>
-		<key>Headers/BLEDeviceHeader.h</key>
+		<key>Headers/LBDeviceHeader.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -183,114 +187,147 @@
 			8OFdvluK7kylhIdvyozcdDNlCnhRrMHentJl/VL/QN0=
 			</data>
 		</dict>
-		<key>Headers/BLEDeviceManager.h</key>
+		<key>Headers/LBDeviceManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			US65wPJXQiD6moox+OiWyREvthg=
+			V+JRUraj27KsnSXL9oEpIX1aIWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			H7wqFn7KSolN4L5mvNnkwuSwADkG3NvkzqVE6Ivwpzg=
+			kODH9GfS75OW6u9fyPQCArp9ZHULLLsGPfqS7yUS18c=
 			</data>
 		</dict>
-		<key>Headers/BLEDeviceOTAManager.h</key>
+		<key>Headers/LBDeviceOTAManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			btjWpmN0l0tfX/VUaJK9quf2API=
+			07UBNCjz4lRM0QBqvi7pbOPUKlA=
 			</data>
 			<key>hash2</key>
 			<data>
-			TRTJUbJTf1FedjgVvKtZNiACOtyrnEsnt3ZI1b7JyJw=
+			OOIPc91W7kbX1+ed/jRdCZTr62f8wTX7a62gY7vKOEk=
 			</data>
 		</dict>
-		<key>Headers/BLEFence.h</key>
+		<key>Headers/LBError.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NrzUS/gyFi5lmtIQkqJzfVsHa4Y=
+			YETNW0G4Oj5txe3g3wOqdeTCJz8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/qqJwkZxlfFaCzY9n25TUv/HoMQVjZ9T1fI+ofazKpU=
+			zjiXuqzjlWGWH0kzJWQH+oTbG7zF9pFsr3+EeD1M7x4=
 			</data>
 		</dict>
-		<key>Headers/BLETools.h</key>
+		<key>Headers/LBFence.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0vwq7CrY/IIGYPc8+DG/Pbz1x60=
+			3t+NStyWWFtT0eDg/xO4WrhCSOA=
 			</data>
 			<key>hash2</key>
 			<data>
-			69t24YzojKI0HGN6ZwWjuhZ6xux4LSlUomTgufh1l5g=
+			96QftdmSIXAG1NNC639ik8mR+bSrxhcSFNygwNrJl10=
 			</data>
 		</dict>
-		<key>Headers/LMError.h</key>
+		<key>Headers/LBTools.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N0ovcyg4a6LDFbR7B/6nqhy2ARY=
+			SiwswnR1WWVByrnyNOx2hkaM94M=
 			</data>
 			<key>hash2</key>
 			<data>
-			rhhjMLeY+BTjfLh7Z0dUTH6VWw4bw0J4WJcfZUn80Cw=
+			wYZxT7L1eirrrPqqKQJ0/XtNKLaG3labr5VRDLIG1RY=
 			</data>
 		</dict>
 		<key>Headers/lockheed_ble-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			st8vyiHB0o0YUOMR0LyFCQYwBK8=
+			UFjADrO2Q2QDysgeFfrNJ4rsHXo=
 			</data>
 			<key>hash2</key>
 			<data>
-			bM/nZ2/YGapNSOfm3YaJqLue+qoBK0R+PAqiqoJ212Q=
+			JVs2Fwyq9xZlvm/EOmW0m/mTq5omsmIVFjQJ3TPgAGw=
 			</data>
 		</dict>
 		<key>Headers/lockheed_ble.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5rryGDxZ9SZCRfWyF7kXG/mcOzs=
+			AB74WizQIE2EMBfBZM85OADRO3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			h7jFNtTlgNoYtI49EYnR34BUJQIejTqNYb9mC0J7RZI=
+			jdjvSSsDyAZvWuNCL+eHJ2LpHGkda+XTsBN8bVa83Gw=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j0kfneM3G7y/nA1Be5mNr8dCkFw=
+			OwK9ECGk+eqD5vrRzWVVXe2Nvyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CoKjlxa3jr+2TIq/KP/T8hav4QVbsF/V7W7/92BCuRU=
+			N1y+jIqcluaYOnVZUpp53dobdS0PEx7s95PQHbeJGwI=
+			</data>
+		</dict>
+		<key>Modules/lockheed_ble.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OwK9ECGk+eqD5vrRzWVVXe2Nvyk=
+			</data>
+			<key>hash2</key>
+			<data>
+			N1y+jIqcluaYOnVZUpp53dobdS0PEx7s95PQHbeJGwI=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tXd9N5tTcgv0mcv0vAHw43tJD0Q=
+			/upR8y7muJM6y22aIdH9HYqUmmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			FVq3XCWlNnaoZ2p44vxfK9rOPPywj4PEbCIbfQHUH+w=
+			Y7TqhZKlfjLACB9gE4TVD6Zq69I+fSwFAoZODyAXNUI=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vUAIVE8+rxclonm/uMKbLdJtLlM=
+			VBe6aCeiIAWX0a/jrYbOooMjz0o=
 			</data>
 			<key>hash2</key>
 			<data>
-			cwzRixsMIfLPfm1LEUXaQIMGEwdxVbw45MRDLcFlwmE=
+			X/UZpRN0TvoHSOheTcOOse6UZyJSq9qfaRaVryEVfnk=
+			</data>
+		</dict>
+		<key>Modules/lockheed_ble.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/upR8y7muJM6y22aIdH9HYqUmmo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Y7TqhZKlfjLACB9gE4TVD6Zq69I+fSwFAoZODyAXNUI=
+			</data>
+		</dict>
+		<key>Modules/lockheed_ble.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VBe6aCeiIAWX0a/jrYbOooMjz0o=
+			</data>
+			<key>hash2</key>
+			<data>
+			X/UZpRN0TvoHSOheTcOOse6UZyJSq9qfaRaVryEVfnk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

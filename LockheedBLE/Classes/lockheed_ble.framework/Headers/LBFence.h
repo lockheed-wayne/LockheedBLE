@@ -12,20 +12,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef enum : UInt8 {
     FenceShape_Circle = 0x08        //圆型区域
-} FenceShape;
+} LBFenceShape;
 
 typedef enum : UInt8 {
     FenceID_0 = 0,
     FenceID_1 = 1,
     FenceID_2 = 2,
-} FenceID;
+} LBFenceID;
 
 #define BLEFenceDefaultRadius   (100)
 
-@interface BLEFence : NSObject
+@interface LBFence : NSObject
 
-@property (assign, nonatomic) FenceShape shape;
-@property (assign, nonatomic) FenceID fenceID;     //目前仅有3个区域，分别为0-2
+@property (assign, nonatomic) LBFenceShape shape;
+@property (assign, nonatomic) LBFenceID fenceID;     //目前仅有3个区域，分别为0-2
 @property (assign, nonatomic) BOOL bWork;           //是否有效，默认0
 @property (assign, nonatomic) BOOL bTimeDurationWork;       //设置的时间是否有效
 @property (strong ,nonatomic) NSDate *start;
