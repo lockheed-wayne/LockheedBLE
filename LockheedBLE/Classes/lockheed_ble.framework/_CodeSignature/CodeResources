@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/lockheed_ble.h</key>
 		<data>
-		AB74WizQIE2EMBfBZM85OADRO3U=
+		RSsEFjR9k/1MXZxwUbk70ei5HHg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -257,11 +257,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AB74WizQIE2EMBfBZM85OADRO3U=
+			RSsEFjR9k/1MXZxwUbk70ei5HHg=
 			</data>
 			<key>hash2</key>
 			<data>
-			jdjvSSsDyAZvWuNCL+eHJ2LpHGkda+XTsBN8bVa83Gw=
+			HV+Rr2ItPmhi0xwSu6sVSKqpRPY6AS8Z3sgDRjh2Crs=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>

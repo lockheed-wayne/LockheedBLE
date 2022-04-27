@@ -21,3 +21,4 @@ FOUNDATION_EXPORT const unsigned char lockheed_bleVersionString[];
 #import "LBDeviceHeader.h"
 #import "LBDeviceOTAManager.h"
 #import "LBDeviceManager.h"
+#import "LBFence.h"
