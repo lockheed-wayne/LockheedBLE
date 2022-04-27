@@ -7,12 +7,14 @@
 //
 
 #import "LHAppDelegate.h"
+@import lockheed_ble;
 
 @implementation LHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    LBError *error = nil;
     return YES;
 }
 
