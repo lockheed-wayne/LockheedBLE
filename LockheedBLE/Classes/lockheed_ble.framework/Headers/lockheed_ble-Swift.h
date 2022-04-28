@@ -269,6 +269,8 @@ SWIFT_CLASS("_TtC12lockheed_ble36BlueSTSDKSTM32WBRebootOtaModeFeature")
 @end
 
 @protocol LMSTOTAManagerDelegate;
+@class CBPeripheral;
+@class NSURL;
 
 SWIFT_CLASS("_TtC12lockheed_ble14LMSTOTAManager")
 @interface LMSTOTAManager : NSObject
@@ -277,9 +279,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LMSTOTAManag
 + (LMSTOTAManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)updateDeviceWithPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData filePath:(NSURL * _Nonnull)filePath;
 @end
 
-@class NSURL;
 
 SWIFT_PROTOCOL("_TtP12lockheed_ble22LMSTOTAManagerDelegate_")
 @protocol LMSTOTAManagerDelegate

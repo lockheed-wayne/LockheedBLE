@@ -41,7 +41,7 @@ public protocol LMSTOTAManagerDelegate {
     
     }
     
-    @objc func updateDevice(peripheral: CBPeripheral, advertisementData: [String : Any], filePath: NSURL) {
+    @objc public func updateDevice(peripheral: CBPeripheral, advertisementData: [String : Any], filePath: NSURL) {
         let mAdvertiseFilters = [BlueNRGOtaAdvertiseParser()]
         
         let firstMatch = mAdvertiseFilters.lazy.compactMap{ $0.filter(advertisementData)}.first

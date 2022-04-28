@@ -62,11 +62,11 @@
 		</data>
 		<key>Headers/LMSTOTAManager.swift</key>
 		<data>
-		kL0dPPaylGbOSsnBvgtvfaU4YD8=
+		obU0+HBWE6XeXasArbN4gNXQ9ww=
 		</data>
 		<key>Headers/lockheed_ble-Swift.h</key>
 		<data>
-		W+hvw5XFGEuwonIm8O9Dc3hZbno=
+		OwiwYUxrIpU9Dn/7KchJ5AofSFw=
 		</data>
 		<key>Headers/lockheed_ble.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		bwl7I1u6bVxpyeKvM1eJ5gAVq00=
+		ifCs5lpgAwWm5+mM/KPVZ9U9yno=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8+vZ1SrSDFv8/bG+/bepOFh9K/o=
+		0KHRZcla/UstFTo1lFMEskIo5gA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -242,22 +242,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kL0dPPaylGbOSsnBvgtvfaU4YD8=
+			obU0+HBWE6XeXasArbN4gNXQ9ww=
 			</data>
 			<key>hash2</key>
 			<data>
-			Picu/9czjJbt0fhENf6BefAPii6ysxaCUxhYpahFHfI=
+			SK0VgiqDV8acOnZ+YXZrZUy1fDY84sAoNX5me6jhSPM=
 			</data>
 		</dict>
 		<key>Headers/lockheed_ble-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W+hvw5XFGEuwonIm8O9Dc3hZbno=
+			OwiwYUxrIpU9Dn/7KchJ5AofSFw=
 			</data>
 			<key>hash2</key>
 			<data>
-			a0vFBNsN89WGEGOR3gK1OklXKDqO47d0sxK4BjX0TzE=
+			+bOMMqkK2oy0c9BQMgPOTuRHl18eO3T6cRbtrlYievE=
 			</data>
 		</dict>
 		<key>Headers/lockheed_ble.h</key>
@@ -275,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bwl7I1u6bVxpyeKvM1eJ5gAVq00=
+			ifCs5lpgAwWm5+mM/KPVZ9U9yno=
 			</data>
 			<key>hash2</key>
 			<data>
-			nehreKFZaA5zSUs0N/dbsTSUY+2KBqaz21L5zA5Lr1Y=
+			BWjTXl5HNEpOwYj5dvyCniuU+TSX2hg7hAja7kGwQjc=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -297,11 +297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8+vZ1SrSDFv8/bG+/bepOFh9K/o=
+			0KHRZcla/UstFTo1lFMEskIo5gA=
 			</data>
 			<key>hash2</key>
 			<data>
-			FpnlKkC70unQJ+30LbAfu6nGShohGlszHhxAI9DO600=
+			Qxjl41Jky4TYMUIWKEDOFfvaKBhJmdp5qKMJPpErE0U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
