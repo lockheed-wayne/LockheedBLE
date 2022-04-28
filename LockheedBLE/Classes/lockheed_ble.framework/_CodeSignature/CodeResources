@@ -6,11 +6,11 @@
 	<dict>
 		<key>Frameworks/BlueSTSDK.framework/BlueSTSDK</key>
 		<data>
-		qNCK17HsynYScbzohfk5OoopaFE=
+		72qsWsqrVZbEynJeGngmnQmrFe0=
 		</data>
 		<key>Frameworks/BlueSTSDK.framework/Info.plist</key>
 		<data>
-		pgDaYwFU3nS5izveICAEfLSvEdk=
+		4GpV4td0wfG7JcssrfLshclEWOQ=
 		</data>
 		<key>Frameworks/BlueSTSDK.framework/Localizable.strings</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/BlueSTSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		8j3oY9hiCRZl+5qLX5/tqo7tGaU=
+		PrfwgWXCz7ddLaCvj/OaRKjNC+Y=
 		</data>
 		<key>Headers/LBCommandManager.h</key>
 		<data>
@@ -56,9 +56,13 @@
 		<data>
 		SiwswnR1WWVByrnyNOx2hkaM94M=
 		</data>
+		<key>Headers/LMSTOTAManager.swift</key>
+		<data>
+		8Vv1xgc7UuOBAmNOaPmQj+gMdPo=
+		</data>
 		<key>Headers/lockheed_ble-Swift.h</key>
 		<data>
-		faqk1re7AXiXs3UHTZSOPDU8byE=
+		pR5afv5oKrka/xIrhxTUFbVEPcY=
 		</data>
 		<key>Headers/lockheed_ble.h</key>
 		<data>
@@ -66,31 +70,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RI77R58yZpS1Tt0u5K2HBjkeM10=
+		q352yvvrHNSbz2kkgp+7jakrwXk=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		u4QAfL7F5wmxBCwmNSM5K8C0cp8=
-		</data>
-		<key>Modules/lockheed_ble.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		u4QAfL7F5wmxBCwmNSM5K8C0cp8=
+		fWqQT9SfH1Cfw1cD17u5Qh0VQaA=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/upR8y7muJM6y22aIdH9HYqUmmo=
+		tXd9N5tTcgv0mcv0vAHw43tJD0Q=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		bk+fCbVVi7vkk0iFr5MJMBMepUA=
-		</data>
-		<key>Modules/lockheed_ble.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		/upR8y7muJM6y22aIdH9HYqUmmo=
-		</data>
-		<key>Modules/lockheed_ble.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		bk+fCbVVi7vkk0iFr5MJMBMepUA=
+		9ZfnZFNFvNEGnbRUhMUn0YhkAbo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,22 +95,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qNCK17HsynYScbzohfk5OoopaFE=
+			72qsWsqrVZbEynJeGngmnQmrFe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nSaUWS3JRmeHGXXP9H16MnFMTQE2QW6Csu3LNRegg6Y=
+			53nzzRyo9MkEuDCMQNrpOHvQVApoOPNOAWXbJ1AUCh4=
 			</data>
 		</dict>
 		<key>Frameworks/BlueSTSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pgDaYwFU3nS5izveICAEfLSvEdk=
+			4GpV4td0wfG7JcssrfLshclEWOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			s8ZGmHWOc8/aNVffZXl3JvC1NoNG2YVzyqbchQJtMAc=
+			F0ZKx9diau3ruRNULe3CgnguQvtA1Ke4Zj5/NX5GVVs=
 			</data>
 		</dict>
 		<key>Frameworks/BlueSTSDK.framework/Localizable.strings</key>
@@ -136,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8j3oY9hiCRZl+5qLX5/tqo7tGaU=
+			PrfwgWXCz7ddLaCvj/OaRKjNC+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			Juc/RFydJ+zYLx8acM8wv90/7esqecNLrmbSLdpUzn0=
+			r2byfQNRw6kVNK+aTvL5VMzCz4xk2G2c6Lw16PxiKUo=
 			</data>
 		</dict>
 		<key>Headers/LBCommandManager.h</key>
@@ -242,15 +234,26 @@
 			wYZxT7L1eirrrPqqKQJ0/XtNKLaG3labr5VRDLIG1RY=
 			</data>
 		</dict>
+		<key>Headers/LMSTOTAManager.swift</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8Vv1xgc7UuOBAmNOaPmQj+gMdPo=
+			</data>
+			<key>hash2</key>
+			<data>
+			C3IN0/n89/pK0xp/fPWMskB1s4LNwMOKjRDYGf22GPA=
+			</data>
+		</dict>
 		<key>Headers/lockheed_ble-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			faqk1re7AXiXs3UHTZSOPDU8byE=
+			pR5afv5oKrka/xIrhxTUFbVEPcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			KRnZYRY5JfXyKAYVolgrQ090t1aHh0sqF5olnNJmPAY=
+			as+1JPoU2ERM+mhtU9pKGH0olc959bPh3cECOR0CQaQ=
 			</data>
 		</dict>
 		<key>Headers/lockheed_ble.h</key>
@@ -268,66 +271,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u4QAfL7F5wmxBCwmNSM5K8C0cp8=
+			fWqQT9SfH1Cfw1cD17u5Qh0VQaA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZyX9MULECJT54CrDrS1fkbCTgPwdUGDnE5U8MqCygQ8=
-			</data>
-		</dict>
-		<key>Modules/lockheed_ble.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			u4QAfL7F5wmxBCwmNSM5K8C0cp8=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZyX9MULECJT54CrDrS1fkbCTgPwdUGDnE5U8MqCygQ8=
+			2agzEjtiJTbLOj9iJz9ef1RciV4mXScCqILRE4+rqL4=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/upR8y7muJM6y22aIdH9HYqUmmo=
+			tXd9N5tTcgv0mcv0vAHw43tJD0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y7TqhZKlfjLACB9gE4TVD6Zq69I+fSwFAoZODyAXNUI=
+			FVq3XCWlNnaoZ2p44vxfK9rOPPywj4PEbCIbfQHUH+w=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bk+fCbVVi7vkk0iFr5MJMBMepUA=
+			9ZfnZFNFvNEGnbRUhMUn0YhkAbo=
 			</data>
 			<key>hash2</key>
 			<data>
-			KUwjTzOmLDWz811k1WWy9RBW9pEESfNzrXwWszH48fQ=
-			</data>
-		</dict>
-		<key>Modules/lockheed_ble.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/upR8y7muJM6y22aIdH9HYqUmmo=
-			</data>
-			<key>hash2</key>
-			<data>
-			Y7TqhZKlfjLACB9gE4TVD6Zq69I+fSwFAoZODyAXNUI=
-			</data>
-		</dict>
-		<key>Modules/lockheed_ble.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bk+fCbVVi7vkk0iFr5MJMBMepUA=
-			</data>
-			<key>hash2</key>
-			<data>
-			KUwjTzOmLDWz811k1WWy9RBW9pEESfNzrXwWszH48fQ=
+			Geb92L2J1r+zwUkI2i0cdggnom9KkEz5BZ1xPT+3f9k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
