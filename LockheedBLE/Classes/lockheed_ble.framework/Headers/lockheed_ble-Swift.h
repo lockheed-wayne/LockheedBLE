@@ -190,6 +190,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import BlueSTSDK;
 @import Foundation;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -259,6 +260,25 @@ SWIFT_CLASS("_TtC12lockheed_ble36BlueSTSDKSTM32WBRebootOtaModeFeature")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nonnull instancetype)initWhitNode:(BlueSTSDKNode * _Nonnull)node name:(NSString * _Nonnull)name SWIFT_UNAVAILABLE;
+@end
+
+@protocol LMSTOTAManagerDelegate;
+
+SWIFT_CLASS("_TtC12lockheed_ble14LMSTOTAManager")
+@interface LMSTOTAManager : NSObject
+@property (nonatomic, weak) id <LMSTOTAManagerDelegate> _Nullable delegate;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSURL;
+
+SWIFT_PROTOCOL("_TtP12lockheed_ble22LMSTOTAManagerDelegate_")
+@protocol LMSTOTAManagerDelegate
+@optional
+- (void)onLoadCompliteWithFile:(NSURL * _Nonnull)file;
+- (void)onLoadErrorWithFile:(NSURL * _Nonnull)file;
+- (void)onLoadProgresWithFile:(NSURL * _Nonnull)file remainingBytes:(NSUInteger)remainingBytes;
 @end
 
 
