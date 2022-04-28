@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		Hb25uq0PyUFVnHshlqJQ9cXK5o4=
+		</data>
 		<key>Frameworks/BlueSTSDK.framework/BlueSTSDK</key>
 		<data>
 		72qsWsqrVZbEynJeGngmnQmrFe0=
@@ -58,11 +62,11 @@
 		</data>
 		<key>Headers/LMSTOTAManager.swift</key>
 		<data>
-		8Vv1xgc7UuOBAmNOaPmQj+gMdPo=
+		kL0dPPaylGbOSsnBvgtvfaU4YD8=
 		</data>
 		<key>Headers/lockheed_ble-Swift.h</key>
 		<data>
-		pR5afv5oKrka/xIrhxTUFbVEPcY=
+		W+hvw5XFGEuwonIm8O9Dc3hZbno=
 		</data>
 		<key>Headers/lockheed_ble.h</key>
 		<data>
@@ -74,7 +78,7 @@
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		fWqQT9SfH1Cfw1cD17u5Qh0VQaA=
+		bwl7I1u6bVxpyeKvM1eJ5gAVq00=
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9ZfnZFNFvNEGnbRUhMUn0YhkAbo=
+		8+vZ1SrSDFv8/bG+/bepOFh9K/o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -238,22 +242,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8Vv1xgc7UuOBAmNOaPmQj+gMdPo=
+			kL0dPPaylGbOSsnBvgtvfaU4YD8=
 			</data>
 			<key>hash2</key>
 			<data>
-			C3IN0/n89/pK0xp/fPWMskB1s4LNwMOKjRDYGf22GPA=
+			Picu/9czjJbt0fhENf6BefAPii6ysxaCUxhYpahFHfI=
 			</data>
 		</dict>
 		<key>Headers/lockheed_ble-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pR5afv5oKrka/xIrhxTUFbVEPcY=
+			W+hvw5XFGEuwonIm8O9Dc3hZbno=
 			</data>
 			<key>hash2</key>
 			<data>
-			as+1JPoU2ERM+mhtU9pKGH0olc959bPh3cECOR0CQaQ=
+			a0vFBNsN89WGEGOR3gK1OklXKDqO47d0sxK4BjX0TzE=
 			</data>
 		</dict>
 		<key>Headers/lockheed_ble.h</key>
@@ -271,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fWqQT9SfH1Cfw1cD17u5Qh0VQaA=
+			bwl7I1u6bVxpyeKvM1eJ5gAVq00=
 			</data>
 			<key>hash2</key>
 			<data>
-			2agzEjtiJTbLOj9iJz9ef1RciV4mXScCqILRE4+rqL4=
+			nehreKFZaA5zSUs0N/dbsTSUY+2KBqaz21L5zA5Lr1Y=
 			</data>
 		</dict>
 		<key>Modules/lockheed_ble.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -293,11 +297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9ZfnZFNFvNEGnbRUhMUn0YhkAbo=
+			8+vZ1SrSDFv8/bG+/bepOFh9K/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Geb92L2J1r+zwUkI2i0cdggnom9KkEz5BZ1xPT+3f9k=
+			FpnlKkC70unQJ+30LbAfu6nGShohGlszHhxAI9DO600=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

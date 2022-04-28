@@ -33,9 +33,9 @@ public protocol LMSTOTAManagerDelegate {
     
     private var mFwUpgradeConsole:BlueSTSDKFwUpgradeConsole? = nil
     public var node:BlueSTSDKNode?
-    @objc open weak var delegate: LMSTOTAManagerDelegate?
+    @objc public weak var delegate: LMSTOTAManagerDelegate?
     
-    @objc static let shared = LMSTOTAManager()
+    @objc public static let shared = LMSTOTAManager()
     
     override init() {
     

@@ -273,6 +273,8 @@ SWIFT_CLASS("_TtC12lockheed_ble36BlueSTSDKSTM32WBRebootOtaModeFeature")
 SWIFT_CLASS("_TtC12lockheed_ble14LMSTOTAManager")
 @interface LMSTOTAManager : NSObject
 @property (nonatomic, weak) id <LMSTOTAManagerDelegate> _Nullable delegate;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LMSTOTAManager * _Nonnull shared;)
++ (LMSTOTAManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
